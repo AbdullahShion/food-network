@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/*(part One Started) */
+
 .menu-bar{
     margin-top: 10px;
     background-image: linear-gradient(tomato,orange);
@@ -25,6 +28,9 @@ body{
 .orange{
     color: orange;
 }
+
+/*(part Two Started) */
+
 .equal-containar{
    
     display: flex;
@@ -32,11 +38,7 @@ body{
     padding: 30px;
     margin: 100px;
 }
-.background-img{
-    background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .half-width{
     width: 50%;
     padding-left:2%;
@@ -50,10 +52,21 @@ body{
     background-image: linear-gradient(tomato , orange);
     padding: 20px 50px;
 }
+
+/*(part Three Started) */
+
 .my-recipies{
     text-align: center;
     margin: 100px;
     padding: 50px;
+}
+
+/*(part fourt Started) */
+
+.background-img{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img{
     width: 100%;
@@ -68,6 +81,22 @@ body{
     width: 40%;
     box-shadow: 10px 10px 30px gray;
 }
+
+/*(part five Started) */
+
+.signup-from{
+    height: 400px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.247) 
+}
+.from-size{
+    height: 400px;
+}
+
+/*(part Six Started) */
+
 .flex-container{
     display: flex;
     justify-content: center;
@@ -76,17 +105,16 @@ body{
     padding: 10px solid black;
     box-shadow: 10px 10px 30px gray;
 }
+
 .flex-item{
     font-size: 25px;
     padding: 70px;
 }
-.signup-from{
-    text-align: center;
-    border-radius: 50px;
-    margin-left: 60px;
-    width: 90%;
-    background-color: rgba(0, 0, 0, 0.247) 
-}
+
+
+
+/*(part Seven Started) */
+
 footer{
     background-color: black;
     padding: 20px;
