@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.orange{
+    color: orange;
+}
+.equal-containar{
+    display: flex;
+    font-size: 30px;
+    padding: 30px;
+    margin: 100px;
+}
+.backimg{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.half-width{
+    width: 50%;
+    padding-left:2%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.order-button{
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    background-image: linear-gradient(tomato , orange);
+    padding: 20px 50px;
+}
+.my-recipies{
+    font-size: 25px;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+}
+.img{
+    width: 300px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 2%; 
+}
+.experiences-item{
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+}
+.flex-container{
+    
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    border-radius: 20px;
+    padding: 10px solid black;
+    box-shadow: 10px 10px 30px gray;
+}
+.flex-item{
+    font-size: 30px;
+    padding: 70px;
+
+}
+.foot-brackgraound{
+    
+    background-color: black;
+}
+footer{
+    padding: 20px;
+    height: 150px;
+    text-align: center;
+}
+.gray{
+    color: gray;
+}
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
