@@ -1,19 +1,43 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
+}
+.menu-bar{
+    margin-top: 10px;
+
+    background-image: linear-gradient(tomato,orange);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width:120px;
+    margin: 15px;
+    padding: 20px;
+    
+}
+.menu-bar ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    
 }
 .orange{
     color: orange;
 }
 .equal-containar{
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     padding: 30px;
     margin: 100px;
 }
 .backimg{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 }
 .half-width{
@@ -24,51 +48,46 @@ body{
 }
 .order-button{
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 30px;
     color: white;
     background-image: linear-gradient(tomato , orange);
     padding: 20px 50px;
 }
 .my-recipies{
-    font-size: 25px;
     text-align: center;
     margin: 100px;
     padding: 50px;
 }
 .img{
-    width: 300px;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 2%; 
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  
 }
 .food-item{
-    border-radius: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
+    border-radius:50px;
+    margin: 20px;
+    padding-left:2%;
+    padding-right:2%;
     width: 40%;
     box-shadow: 10px 10px 30px gray;
 }
 .flex-container{
-    
     display: flex;
     justify-content: center;
     margin: 60px;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 10px solid black;
     box-shadow: 10px 10px 30px gray;
 }
 .flex-item{
-    font-size: 30px;
+    font-size: 25px;
     padding: 70px;
 
 }
-.foot-brackgraound{
-    
-    background-color: black;
-}
 footer{
+    background-color: black;
     padding: 20px;
     height: 150px;
     text-align: center;
